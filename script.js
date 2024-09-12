@@ -1,3 +1,13 @@
+// toggle menu
+let menu = document.querySelector('.menu');
+let menuToggle = document.querySelector('.menu-toggle');
+
+menuToggle.onclick = function () {
+    menu.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+}
+
+// slider
 let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
@@ -9,7 +19,7 @@ let itemActive = 0;
 let autoSlide = setInterval(() => {
         next.click();
         showSlider();
-    }, 3000);
+    }, 5000);
 
 next.onclick = function () {
     itemActive = itemActive + 1;
@@ -41,7 +51,7 @@ function showSlider() {
     autoSlide = setInterval(() => {
         next.click();
         showSlider();
-    }, 3000);
+    }, 5000);
 }
 
 
@@ -51,3 +61,6 @@ cards.forEach((card, index) => {
         showSlider();
     }
 })
+
+
+
