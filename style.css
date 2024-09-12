@@ -100,10 +100,7 @@ nav {
     color: var(--primary-color);
 }
 
-#services p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
+
 
 #services ul {
     list-style: none;
@@ -161,8 +158,11 @@ nav {
     text-transform: uppercase;
     letter-spacing: 10px;
 }
+.slider .list .item .content p:nth-child(3){
+    font-size: 0.8rem;
+}
 .slider .list .item .content h3{
-    font-size: 50px;
+    font-size: 2rem;
     margin:  0;
     color: var(--accent-color);
 }
@@ -238,7 +238,7 @@ nav {
 
 .cards .card{
     width: 200px;
-    height: 280px;
+    height: 250px;
     filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
@@ -264,7 +264,7 @@ nav {
 #about{
     background-color: var(--light-color);
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 #about h2{
