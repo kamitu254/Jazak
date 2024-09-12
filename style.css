@@ -222,7 +222,7 @@ nav {
 
 .cards{
     position: absolute;
-    bottom: 50px;
+    bottom: -50px;
     z-index: 11;
     display: flex;
     justify-content: center;
