@@ -259,7 +259,11 @@ nav {
 .cards .card .content{
     position: absolute;
     inset: auto 10px 10px 10px;
-    color: var(--primary-color);
+    color: var(--accent-color);
+    background: var(--nav-color);
+    box-shadow: var(--card-box-shadow);
+    border-radius: 5px;
+    z-index: 15;
 }
 
 #about{
